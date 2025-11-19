@@ -17,7 +17,7 @@ export default function About() {
         </h2>
 
         <div className="grid md:grid-cols-2 gap-12 items-center">
-          <div className="flex bg-red aspect-square object-cover">
+          <div className="flex bg-red aspect-square object-cover order-2 md:order-1">
             <img
               src={profileImage}
               alt="Profile"
@@ -25,7 +25,7 @@ export default function About() {
             />
           </div>
 
-          <div>
+          <div className="order-1 md:order-2 mt-10 md:mt-0">
             <p className="text-lg leading-relaxed text-foreground mb-6">
               I’m a Full-Stack Developer with 2+ years of experience building scalable web applications using React.js, Node.js, and AWS. I focus on creating efficient, reliable systems that deliver great user experiences and solve real business challenges.
             </p>
