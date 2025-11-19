@@ -51,7 +51,7 @@ The platform seamlessly integrates financial services and property management, o
         "Developed and configured webhooks to handle real-time transaction updates from payment gateways and bank partners.",
         "Improved backend response times by ~40% through query optimization and asynchronous request handling."
       ],
-      role: "Backend Developer",
+      role: "Full Stack Developer",
       duration: "4 months",
       teamSize: "15 developers",
       githubUrl: "",
